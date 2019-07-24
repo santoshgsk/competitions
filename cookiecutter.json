@@ -1,6 +1,6 @@
 {
     "project_name": "Genie",
-    "repo_name": "{{ cookiecutter.genie }}",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "Santosh GSK",
     "description": "A repository of ML tools and tricks.",
     "open_source_license": ["MIT"],
